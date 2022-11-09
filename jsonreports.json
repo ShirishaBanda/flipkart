@@ -1,0 +1,346 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/logprofile.feature:33",
+      "name": "profile  data -- @1.1 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/logprofile.feature:3",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:7"
+          },
+          "name": "We are on flipkart website",
+          "result": {
+            "duration": 48.82137203216553,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/logprofile.feature:4",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:14"
+          },
+          "name": "click login",
+          "result": {
+            "duration": 0.15637993812561035,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:5",
+          "match": {
+            "arguments": [
+              {
+                "name": "username",
+                "value": "9182539988"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:19"
+          },
+          "name": "Enter your \"9182539988\" in the feild",
+          "result": {
+            "duration": 20.26711392402649,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logprofile.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "Shirisha@23"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:24"
+          },
+          "name": "Enter your \"Shirisha@23\" in the box",
+          "result": {
+            "duration": 20.29581570625305,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logprofile.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:29"
+          },
+          "name": "click login",
+          "result": {
+            "duration": 0.07599973678588867,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "features/logprofile.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:38"
+          },
+          "name": "we hover over Login Button",
+          "result": {
+            "duration": 10.381389617919922,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "When",
+          "location": "features/logprofile.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:42"
+          },
+          "name": "user clicks on  My profile",
+          "result": {
+            "duration": 0.20958161354064941,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:47"
+          },
+          "name": "user clicks on edit button",
+          "result": {
+            "duration": 0.31368207931518555,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "name": "First_name",
+                "value": "shirisha"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:52"
+          },
+          "name": "user enters the \"shirisha\"",
+          "result": {
+            "duration": 20.46977996826172,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:12",
+          "match": {
+            "arguments": [
+              {
+                "name": "Last_n",
+                "value": "banda"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:57"
+          },
+          "name": "user enters \"banda\"",
+          "result": {
+            "duration": 0.08951520919799805,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:62"
+          },
+          "name": "chooses the gender",
+          "result": {
+            "duration": 0.09735250473022461,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:67"
+          },
+          "name": "clicks on save button",
+          "result": {
+            "duration": 0.10822486877441406,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "features/logprofile.feature:23",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:103"
+          },
+          "name": "user clicks on Manage Addresses",
+          "result": {
+            "duration": 0.16452932357788086,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:24",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:107"
+          },
+          "name": "user clicked add address",
+          "result": {
+            "duration": 2.3574368953704834,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:25",
+          "match": {
+            "arguments": [
+              {
+                "name": "name",
+                "value": "shirisha"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:111"
+          },
+          "name": "user entered \"shirisha\"",
+          "result": {
+            "duration": 20.28018569946289,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logprofile.feature:26",
+          "match": {
+            "arguments": [
+              {
+                "name": "mobilenumber",
+                "value": "9182539988"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:115"
+          },
+          "name": "user enters \"9182539988\" on number",
+          "result": {
+            "duration": 20.297895431518555,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logprofile.feature:27",
+          "match": {
+            "arguments": [
+              {
+                "name": "pincode",
+                "value": "508278"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:120"
+          },
+          "name": "enter \"508278\"",
+          "result": {
+            "duration": 20.345351457595825,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logprofile.feature:28",
+          "match": {
+            "arguments": [
+              {
+                "name": "locality",
+                "value": "marupaka"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:125"
+          },
+          "name": "user enter the \"marupaka\"",
+          "result": {
+            "duration": 20.32016611099243,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logprofile.feature:29",
+          "match": {
+            "arguments": [
+              {
+                "name": "address",
+                "value": "h.no:84,marupaka"
+              }
+            ],
+            "location": "features/steps/logprofilestep.py:130"
+          },
+          "name": "user types \"h.no:84,marupaka\"",
+          "result": {
+            "duration": 20.35890245437622,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logprofile.feature:30",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/logprofilestep.py:135"
+          },
+          "name": "click on save button",
+          "result": {
+            "duration": 0.13092923164367676,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/logprofile.feature:1",
+  "name": "profile flipkart",
+  "status": "passed",
+  "tags": []
+}
+]

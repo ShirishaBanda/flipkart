@@ -1,0 +1,1 @@
+{"99a699656b94c9a050aca5819ecd306e":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"df97492abf7c1ede","reportUrl":"http://localhost:9090/job/flipkart/1/allure/#testresult/df97492abf7c1ede","status":"passed","time":{"start":1667974366509,"stop":1667974747322,"duration":380813}}]}}

@@ -1,0 +1,6 @@
+2022-11-05 23:50:12,793 - flipkartstep.py:[21] - [INFO] - Navigate to Flipkart Homepage
+2022-11-05 23:50:16,054 - flipkartstep.py:[23] - [INFO] - Close button clicked
+2022-11-05 23:50:17,381 - flipkartstep.py:[35] - [INFO] - Login button clicked
+2022-11-05 23:50:20,017 - flipkartstep.py:[41] - [INFO] - Username field typed
+2022-11-05 23:50:20,147 - flipkartstep.py:[47] - [INFO] - Password field typed
+2022-11-05 23:50:20,211 - flipkartstep.py:[53] - [INFO] - Sign IN BUTTON CLICKED

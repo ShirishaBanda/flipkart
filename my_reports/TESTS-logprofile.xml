@@ -1,0 +1,52 @@
+<testsuite name="logprofile.profile flipkart" tests="1" errors="0" failures="0" skipped="0" time="223.213278" timestamp="2022-11-09T11:05:34.884367" hostname="shirisha"><testcase classname="logprofile.profile flipkart" name="profile  data -- @1.1 " status="passed" time="223.213278"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: profile  data -- @1.1 
+    Given We are on flipkart website ... passed in 46.756s
+    When click login ... passed in 0.127s
+    Then Enter your "9182539988" in the feild ... passed in 20.293s
+    And Enter your "Shirisha@23" in the box ... passed in 20.323s
+    And click login ... passed in 0.111s
+    When we hover over Login Button ... passed in 10.337s
+    When user clicks on  My profile ... passed in 0.158s
+    Then user clicks on edit button ... passed in 0.204s
+    Then user enters the "shirisha" ... passed in 20.388s
+    Then user enters "banda" ... passed in 0.083s
+    Then chooses the gender ... passed in 0.081s
+    Then clicks on save button ... passed in 0.122s
+    When user clicks on Manage Addresses ... passed in 0.129s
+    Then user clicked add address ... passed in 2.378s
+    Then user entered "shirisha" ... passed in 20.244s
+    And user enters "9182539988" on number ... passed in 20.303s
+    And enter "508278" ... passed in 20.361s
+    And user enter the "marupaka" ... passed in 20.365s
+    And user types "h.no:84,marupaka" ... passed in 20.356s
+    Then click on save button ... passed in 0.094s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]>
+</system-out></testcase></testsuite>
